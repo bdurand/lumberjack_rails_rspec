@@ -89,6 +89,10 @@ it "logs with nested attributes" do
 end
 ```
 
+### Log Output
+
+Only log entries from failed examples will be output to the logs. This removes noise from successful tests and makes your test logs easier to read and far more useful for diagnosing failures.
+
 ## Installation
 
 Add this line to your application's Gemfile:
