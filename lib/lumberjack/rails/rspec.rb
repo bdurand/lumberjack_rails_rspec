@@ -2,7 +2,7 @@
 
 require "lumberjack"
 require "lumberjack_rails"
-require "lumberjack/rspec"
+require "lumberjack_rspec"
 
 # RSpec helper methods for working with Lumberjack loggers.
 module Lumberjack::Rails::RSpec
